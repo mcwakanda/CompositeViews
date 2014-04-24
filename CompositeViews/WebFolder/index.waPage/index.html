@@ -1,13 +1,30 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html><html>
 	<head>
 		<title>Main Page</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="generator" content="Wakanda GUIDesigner"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 		<meta name="WAF.packageJson"/>
-		<meta name="WAF.catalog" content="" />
-	</head>
-	<body id="waf-body" data-type="document" data-lib="WAF" data-rpc-activate="false" data-rpc-namespace="rpc" data-rpc-validation="false" style="">
-	</body>
+		<meta name="WAF.catalog" content="Lead"/>
+		<meta name="wakanda-version" content="8 build 8.159169"/>
+		<meta name="wakanda-build" content="8.159169"/>
+		<meta name="WAF.config.loadCSS" id="waf-interface-css" content="styles/index.css"/>
+		<meta name="WAF.config.loadCSS" id="waf-project-css" content="/application.css"/>
+
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="scalar" data-source="leadTypeIconFile" data-lib="WAF" data-id="leadTypeIconFile" data-dataType="string" data-autoLoad="true" content="leadTypeIconFile"/>
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="dataClass" data-source="Lead" data-lib="WAF" data-id="lead" data-dataType="string" data-autoLoad="false" content="lead"/><meta name="WAF.config.loadJS" id="waf-script" content="scripts/index.js"/>
+
+		
+		<meta name="WAF.config.datasources" data-type="dataSource" data-source-type="object" data-source="viewValues" data-lib="WAF" data-id="viewValues" data-dataType="string" data-autoLoad="true" data-attributes="leadTitle:string" content="viewValues"/></head>
+	<body id="waf-body" data-workspace-width="0" data-workspace-orientation="portrait" data-workspace-height="0" data-workspace-device="desktop" data-viewport-width="device-width" data-viewport-minimum-scale="1.0" data-viewport-maximum-scale="1.0" data-viewport-initial-scale="1.0" data-type="document" data-theme="softGray" data-rpc-validation="false" data-rpc-namespace="rpc" data-rpc-activate="false" data-platform="desktop" data-lib="WAF" data-group="[]" data-entire-model="false" data-apple-meta-tags-status-bar="default" class="waf-theme softGray" style="bottom:;right:;visibility:hidden;">
+		<div id="screenTitleText" data-type="richText" data-target="_blank" data-plainText="true" data-overflow="Hidden" data-lib="WAF" data-label-position="left" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-binding="viewValues.leadTitle" data-autoWidth="false" class="waf-widget waf-richText">Screen Title</div>
+		<div id="container2" data-type="container" data-lib="WAF" data-label-position="top" data-label="" data-constraint-top="true" data-constraint-right="true" data-constraint-left="true" data-constraint-bottom="true" class="waf-widget waf-container waf-container-level-0 waf-level-0">
+ 		<div id="leadTypeCombo" data-type="combobox" data-limit="20" data-lib="WAF" data-label-position="left" data-label="Type" data-editable="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-autoDispatch="true" class="waf-widget waf-combobox"><select><option value="buyer">Buyer</option><option value="seller" selected="selected">Seller</option></select></div>
+ 		<label id="label1" for="leadTypeCombo" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-combobox">Type</label>
+ 		<button id="newLeadButton" data-type="button" data-text="New Lead" data-target="_blank" data-lib="WAF" data-constraint-top="false" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="true" data-action="simple" class="waf-widget waf-button"></button>
+ 		<input type="text" id="textField1" data-type="textField" data-readOnly="false" data-password="false" data-multiline="false" data-lib="WAF" data-label-position="left" data-label="Label" data-datapicker-on="true" data-datapicker-icon-only="false" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="lead.description" class="waf-widget waf-textField"/>
+ 		<label id="label2" for="textField1" data-valign="middle" data-type="label" data-margin="5" data-lib="WAF" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" class="waf-widget waf-label waf-label-textfield">Label</label>
+ 	</div>
+		<div id="dataTypeImage" data-type="image" data-target="_blank" data-lib="WAF" data-label-position="left" data-label="" data-fit="0" data-constraint-top="true" data-constraint-right="false" data-constraint-left="true" data-constraint-bottom="false" data-binding="leadTypeIconFile" class="waf-widget waf-image"></div>
+		<script type="text/javascript" src="/waLib/WAF/Loader.js"></script><div id="dataGrid1" data-type="dataGrid" data-selection-mode="single" data-lib="WAF" data-label-position="top" data-label="" data-footer-text="item(s)" data-display-error="true" data-constraint-top="true" data-constraint-right="true" data-constraint-left="false" data-constraint-bottom="false" data-column="[{'sourceAttID':'description','colID':'description','width':'150','title':'description'},{'sourceAttID':'createdAt','colID':'createdAt','width':'100','title':'createdAt'},{'sourceAttID':'type','colID':'type','width':'150','title':'type'}]" data-binding="lead" class="waf-widget waf-dataGrid"></div></body>
 </html>

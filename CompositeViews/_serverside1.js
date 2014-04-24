@@ -1,0 +1,1 @@
+﻿var lead = new ds.Lead({createdAt: new Date(), type: 'buyer'});lead.save();lead;

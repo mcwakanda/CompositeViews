@@ -1,0 +1,1 @@
+﻿model.Lead.description.onGet = function() {	if(this.type == 'buyer'){		if(this.person != null){			return this.person.fullName;		} else {			return 'New Buyer Lead';		}	} else {		if(this.listing != null){			return this.listing.name;		} else {			return 'New Seller Lead';		}	}};
